@@ -1,0 +1,217 @@
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+
+
+/********************** GENERAL PAGE ************************/
+
+
+.logo-page {
+  max-width: 75%;
+}
+
+
+section {
+    margin-top: 5%;
+}
+
+.hidden-md-down {
+    color: white;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+
+.bg {
+    margin-right: -223px !important;
+}
+
+
+
+
+ /*********************** Image Header/Footer ********************/
+
+.bg-header {
+    background-image: url('../img/robinetterie-salle-de-bain.png');
+    background-size: cover;
+    height: 500px !important;
+}
+.bg-footer {
+    background-image: url("../img/6ba1ba10f0c8a7b525101730ad2a43e2_large.jpeg");
+    background-size: cover;
+    height: 350px !important;
+    padding-bottom: 10%;
+}
+a {
+    color: #FFF !important;
+
+}
+
+
+
+.title-page {
+    color: #4D2112;
+    font-weight: bold !important;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 70px;
+    color: #228DFF;
+    font-family: Iceland;
+}
+.hero__content-footer {
+    margin-top: 8%;
+}
+.annie {
+    margin-top: 7%;
+}
+
+.li-foot {
+    margin-top: 10%;
+    padding-top: 1%;
+}
+.li-footer {
+    margin-left: -7%;
+    list-style: none;
+    margin-right: 10%;
+
+}
+
+
+.picture {
+
+  max-width: 100%;
+  height: 400px;
+  margin-left: 200px;
+}
+
+
+/************************** PAGE CONTACT ****************************/
+
+
+
+.bg-header-contact{
+  background-image: url('../img/plomberie-fuite-eau-990x400.jpg');
+  background-size: cover;
+  height: 500px !important;
+}
+
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+
+  /* To see the limits of the form */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all label have the same size and are properly align */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  /* To make sure that all text field have the same font settings
+     By default, textarea are set with a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text field */
+  width: 300px;
+
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highligh on active elements */
+  border-color: #000;
+}
+
+textarea {
+  /* To properly align multiline text field with their label */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 5em;
+
+  /* To allow users to resize any textarea vertically
+     It works only on Chrome, Firefox and Safari */
+  resize: vertical;
+}
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra magin represent the same space as the space between
+     the labels and their text fields */
+  margin-left: .5em;
+}
+
+
+/************************** ABOUT PAGE ******************************/
+
+.bg-header-about{
+  background-image: url('../img/le-chauffage-maison.jpg');
+  background-size: cover;
+  height: 500px !important;
+}
+
+.col-md-7-about{
+  margin-left: : 50px;
+}
+
+/************************ SMARTPHONE *******************************/
+
+
+@media only screen and (max-width: 800px) {
+
+    .bg-header{
+            width: 100%;
+            height: auto;
+            background-size: 100% auto !important;
+            background-size: cover;
+            background-repeat: no-repeat;
+    }
+
+    .title-page{
+      height: 60px;
+      font-size: 40px;
+    }
+
+    .bg-header-about{
+      width: 100%;
+      height: auto;
+      background-size: 100% auto !important;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+   .bg-header-contact{
+     width: 100%;
+     height: auto;
+     background-size: 100% auto !important;
+     background-size: cover;
+     background-repeat: no-repeat;
+   }
+
+
+.wut-about{
+  width: 100%;
+height: auto;
+background-size: 100% auto !important;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+}
